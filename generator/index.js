@@ -105,7 +105,7 @@ module.exports = (api, options, rootOptions) => {
     api.injectImports(file, 'import { createProvider } from \'./vue-apollo\'')
     api.injectRootOptions(file, 'apolloProvider: createProvider(),')
   } catch (e) {
-    api.exitLog('Your main file couldn\'t be modified. You will have to edit the code yourself: https://github.com/Akryum/vue-cli-plugin-apollo#manual-code-changes', 'warn')
+    api.exitLog('Your main file couldn\'t be modified. You will have to edit the code yourself: https://github.com/BrendanEthika/vue-cli-plugin-apollo#manual-code-changes', 'warn')
   }
 
   api.onCreateComplete(async () => {

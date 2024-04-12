@@ -18,10 +18,10 @@ If you deploy on now.sh, add the following script to your `package.json`:
 
 ## Library published on npm
 
-If your project is meant to be used as a package installed from npm, you will need to move `vue-cli-plugin-apollo` from the `devDependencies` field to `dependencies` in your `package.json` file. Then you can run the server:
+If your project is meant to be used as a package installed from npm, you will need to move `ng-vue-cli-plugin-apollo` from the `devDependencies` field to `dependencies` in your `package.json` file. Then you can run the server:
 
 ```js
-const server = require('vue-cli-plugin-apollo/graphql-server')
+const server = require('ng-vue-cli-plugin-apollo/graphql-server')
 
 const opts = {
   host: 'localhost',

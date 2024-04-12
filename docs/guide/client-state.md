@@ -4,7 +4,7 @@ You can use [local state](https://www.apollographql.com/docs/tutorial/local-stat
 
 ```js
 import gql from 'graphql-tag'
-import { createApolloClient } from 'vue-cli-plugin-apollo/graphql-client'
+import { createApolloClient } from 'ng-vue-cli-plugin-apollo/graphql-client'
 
 const options = {
   // ...

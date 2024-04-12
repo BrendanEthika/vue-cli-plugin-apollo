@@ -8,7 +8,7 @@ module.exports = api => {
     id: CONFIG,
     name: 'Apollo Server',
     description: 'Integrated GraphQL server',
-    link: 'https://github.com/Akryum/vue-cli-plugin-apollo#configuration',
+    link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#configuration',
     files: {
       vue: {
         js: ['vue.config.js'],
@@ -24,7 +24,7 @@ module.exports = api => {
             name: 'enableMocks',
             message: 'Mocking',
             description: 'Enable auto-mocking for quick prototyping',
-            link: 'https://github.com/Akryum/vue-cli-plugin-apollo#mocks',
+            link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#mocks',
             type: 'confirm',
             file: 'vue',
             default: false,
@@ -64,7 +64,7 @@ module.exports = api => {
             group: 'Apollo Engine',
             message: 'Apollo Engine',
             description: 'Enable Apollo Engine, a cloud monitoring service',
-            link: 'https://github.com/Akryum/vue-cli-plugin-apollo#apollo-engine',
+            link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#apollo-engine',
             type: 'confirm',
             file: 'vue',
             default: false,

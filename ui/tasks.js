@@ -47,7 +47,7 @@ module.exports = api => {
     onRun = undefined,
     onExit = undefined,
   } = {}) => ({
-    link: 'https://github.com/Akryum/vue-cli-plugin-apollo#injected-commands',
+    link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#injected-commands',
     views: [
       {
         id: 'org.akryum.vue-apollo.views.playground',
@@ -143,7 +143,7 @@ module.exports = api => {
   api.describeTask({
     match: GENERATE_SCHEMA_TASK,
     description: 'Generates full schema JSON and GraphQL files',
-    link: 'https://github.com/Akryum/vue-cli-plugin-apollo#injected-commands',
+    link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#injected-commands',
     prompts: [
       {
         name: 'watch',
@@ -193,7 +193,7 @@ module.exports = api => {
   api.describeTask({
     match: CHECK_SCHEMA_TASK,
     description: 'Check schema and compare it to the published schema on Apollo Engine',
-    link: 'https://github.com/Akryum/vue-cli-plugin-apollo#injected-commands',
+    link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#injected-commands',
     prompts: [
       ...schemaCommonPrompts,
     ],
@@ -205,7 +205,7 @@ module.exports = api => {
   api.describeTask({
     match: PUBLISH_SCHEMA_TASK,
     description: 'Publish schema to Apollo Engine',
-    link: 'https://github.com/Akryum/vue-cli-plugin-apollo#injected-commands',
+    link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo#injected-commands',
     prompts: [
       ...schemaCommonPrompts,
     ],
@@ -232,8 +232,8 @@ module.exports = api => {
       <li>Run the Apollo Server in the 'Tasks' page.</li>
       <li>An Apollo Engine analytics widget is also available in the Dashboard.</li>
       </ul>`,
-      image: '/_plugin/vue-cli-plugin-apollo/vue-apollo-graphql.png',
-      link: 'https://github.com/Akryum/vue-cli-plugin-apollo',
+      image: '/_plugin/ng-vue-cli-plugin-apollo/vue-apollo-graphql.png',
+      link: 'https://github.com/BrendanEthika/vue-cli-plugin-apollo',
       handler () {
         storageSet(WELCOME_DISABLED, true)
       },
@@ -287,7 +287,7 @@ module.exports = api => {
       type: 'action',
       label: 'Open Apollo Engine',
       message: 'Apollo Engine is a cloud service that provides deep insights into your GraphQL layer, with performance and error analytics.',
-      image: '/_plugin/vue-cli-plugin-apollo/apollo-engine.png',
+      image: '/_plugin/ng-vue-cli-plugin-apollo/apollo-engine.png',
       link: 'https://www.apollographql.com/engine',
       actionLink: `${ENGINE_FRONTEND}/service/${env.VUE_APP_APOLLO_ENGINE_SERVICE}`,
       // handler () {
@@ -305,7 +305,7 @@ module.exports = api => {
       type: 'action',
       label: 'Publish your schema',
       message: 'You can publish your schema to Apollo Engine with the \'apollo:schema:publish\' task.',
-      image: '/_plugin/vue-cli-plugin-apollo/publish-task.png',
+      image: '/_plugin/ng-vue-cli-plugin-apollo/publish-task.png',
       handler () {
         api.requestRoute({
           name: 'project-task-details',

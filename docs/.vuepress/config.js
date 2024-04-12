@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   themeConfig: {
-    repo: 'Akryum/vue-cli-plugin-apollo',
+    repo: 'BrendanEthika/vue-cli-plugin-apollo',
     docsDir: 'docs',
     editLinks: true,
     serviceWorker: {
@@ -30,7 +30,7 @@ module.exports = {
           },
           {
             text: 'vue-apollo',
-            link: 'https://github.com/Akryum/vue-apollo',
+            link: 'https://github.com/BrendanEthika/vue-apollo',
           },
           {
             text: 'Patreon',

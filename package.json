@@ -1,6 +1,6 @@
 {
-  "name": "vue-cli-plugin-apollo",
-  "version": "0.22.2",
+  "name": "ng-vue-cli-plugin-apollo",
+  "version": "0.23.3",
   "description": "vue-cli 3 plugin to add Apollo and GraphQL",
   "main": "index.js",
   "types": "./types.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akryum/vue-cli-plugin-apollo.git"
+    "url": "git+https://github.com/BrendanEthika/vue-cli-plugin-apollo.git"
   },
   "keywords": [
     "vue",
@@ -28,9 +28,9 @@
   "author": "Guillaume Chau <guillaume.b.chau@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Akryum/vue-cli-plugin-apollo/issues"
+    "url": "https://github.com/BrendanEthika/vue-cli-plugin-apollo/issues"
   },
-  "homepage": "https://github.com/Akryum/vue-cli-plugin-apollo#readme",
+  "homepage": "https://github.com/BrendanEthika/vue-cli-plugin-apollo#readme",
   "dependencies": {
     "@apollo/federation": "0.38.1",
     "apollo-cache-inmemory": "^1.6.6",
@@ -55,6 +55,7 @@
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.10.3",
     "graphql-tools": "^6.0.9",
+    "levenary": "^1.1.1",
     "ng-apollo": "^2.36.8",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",

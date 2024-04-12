@@ -22,9 +22,9 @@ npm run serve
 
 [Recommended VS Code extension](https://github.com/prismagraphql/vscode-graphql)
 
-**Updating `vue-cli-plugin-apollo` will also update both Apollo Client and its configuration for you! :+1:**
+**Updating `ng-vue-cli-plugin-apollo` will also update both Apollo Client and its configuration for you! :+1:**
 
-Read the [vue-apollo doc](https://github.com/Akryum/vue-apollo).
+Read the [vue-apollo doc](https://github.com/BrendanEthika/vue-apollo).
 
 ## Sponsors
 
@@ -32,7 +32,7 @@ Read the [vue-apollo doc](https://github.com/Akryum/vue-apollo).
 
 ## Become a sponsor
 
-Is your company using vue-apollo or vue-cli-plugin-apollo to build awesome apps? Join the other patrons and become a sponsor to add your logo on this documentation! Supporting me on Patreon allows me to work less for a job and to work more on Free Open Source Software such as vue-apollo! Thank you!
+Is your company using vue-apollo or ng-vue-cli-plugin-apollo to build awesome apps? Join the other patrons and become a sponsor to add your logo on this documentation! Supporting me on Patreon allows me to work less for a job and to work more on Free Open Source Software such as vue-apollo! Thank you!
 
 <p style="text-align: center;">
   <a href="https://github.com/sponsors/Akryum/" target="_blank">

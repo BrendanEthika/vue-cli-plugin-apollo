@@ -1,4 +1,4 @@
-declare module 'vue-cli-plugin-apollo/graphql-client' {
+declare module 'ng-vue-cli-plugin-apollo/graphql-client' {
   import { ApolloClient, ApolloClientOptions, Resolvers } from 'apollo-client'
   import { DocumentNode } from 'apollo-link'
   import { SubscriptionClient } from 'subscriptions-transport-ws'
@@ -55,7 +55,7 @@ declare module 'vue-cli-plugin-apollo/graphql-client' {
   export function restartWebsockets(wsClient: SubscriptionClient): void
 }
 
-declare module 'vue-cli-plugin-apollo/graphql-server' {
+declare module 'ng-vue-cli-plugin-apollo/graphql-server' {
   // eslint-disable-next-line import/no-duplicates
   import { Resolvers } from 'apollo-client'
   import { ContextFunction, Context } from 'apollo-server-core'

@@ -22,4 +22,4 @@ To run the server only once, use this command:
 npm run run-graphql-api
 ```
 
-**Updating `vue-cli-plugin-apollo` will also update the GraphQL Server service :+1:**
+**Updating `ng-vue-cli-plugin-apollo` will also update the GraphQL Server service :+1:**

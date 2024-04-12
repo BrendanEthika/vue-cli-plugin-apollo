@@ -98,7 +98,7 @@ module.exports = (api, options) => {
     description: 'Run the Apollo server and watch the sources to restart automatically',
     usage: 'vue-cli-service apollo:dev [options]',
     options: COMMAND_OPTIONS,
-    details: 'For more info, see https://github.com/Akryum/vue-cli-plugin-apollo',
+    details: 'For more info, see https://github.com/BrendanEthika/vue-cli-plugin-apollo',
   }, args => {
     const {
       runParallelCommand,
@@ -149,7 +149,7 @@ module.exports = (api, options) => {
     description: 'Run the Apollo server',
     usage: 'vue-cli-service apollo:start [options]',
     options: COMMAND_OPTIONS,
-    details: 'For more info, see https://github.com/Akryum/vue-cli-plugin-apollo',
+    details: 'For more info, see https://github.com/BrendanEthika/vue-cli-plugin-apollo',
   }, args => {
     const {
       runParallelCommand,
@@ -197,7 +197,7 @@ module.exports = (api, options) => {
       '--watch': 'Watch server files and re-generate schema JSON',
       '--output [path]': 'Path to the output files',
     },
-    details: 'For more info, see https://github.com/Akryum/vue-cli-plugin-apollo',
+    details: 'For more info, see https://github.com/BrendanEthika/vue-cli-plugin-apollo',
   }, async args => {
     if (args.watch) {
       const {
@@ -235,7 +235,7 @@ module.exports = (api, options) => {
     description: 'Compare schema from Apollo Engine',
     usage: 'vue-cli-service apollo:client:check [options]',
     options: SCHEMA_OPTIONS,
-    details: 'For more info, see https://github.com/Akryum/vue-cli-plugin-apollo',
+    details: 'For more info, see https://github.com/BrendanEthika/vue-cli-plugin-apollo',
   }, async args => {
     throw new Error('Not implemented yet')
 
@@ -261,7 +261,7 @@ module.exports = (api, options) => {
     description: 'Publish schema to Apollo Engine',
     usage: 'vue-cli-service apollo:schema:publish [options]',
     options: SCHEMA_OPTIONS,
-    details: 'For more info, see https://github.com/Akryum/vue-cli-plugin-apollo',
+    details: 'For more info, see https://github.com/BrendanEthika/vue-cli-plugin-apollo',
   }, async args => {
     const endpoint = args.endpoint || `${DEFAULT_GENERATE_OUTPUT}.json`
     const key = args.key || process.env.VUE_APP_APOLLO_ENGINE_KEY
