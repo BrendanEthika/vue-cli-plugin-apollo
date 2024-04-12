@@ -1,6 +1,6 @@
 {
   "name": "ng-vue-cli-plugin-apollo",
-  "version": "0.23.4",
+  "version": "0.23.5",
   "description": "vue-cli 3 plugin to add Apollo and GraphQL",
   "main": "index.js",
   "types": "./types.d.ts",
@@ -65,14 +65,6 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^9.0.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-vue": "^9.24.1",
     "vuepress": "^0.14.8"
   },
   "peerDependencies": {

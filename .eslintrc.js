@@ -2,10 +2,10 @@ module.exports = {
   // Use only this configuration
   root: true,
   // File parser
-  parser: 'vue-eslint-parser',
+  // parser: 'vue-eslint-parser',
   parserOptions: {
     // Use babel-eslint for JavaScript
-    parser: 'babel-eslint',
+    // parser: 'babel-eslint',
     ecmaVersion: 2017,
     // With import/export syntax
     sourceType: 'module',

@@ -69,24 +69,24 @@ module.exports = (api, options, rootOptions) => {
     }
   }
 
-  if (options.addServer && api.hasPlugin('eslint')) {
-    api.extendPackage({
-      devDependencies: {
-        'eslint-plugin-graphql': '^2.1.1',
-      },
-      eslintConfig: {
-        plugins: [
-          'graphql',
-        ],
-        rules: {
-          'graphql/template-strings': ['error', {
-            env: 'literal',
-            projectName: 'app',
-            schemaJsonFilepath: 'node_modules/.temp/graphql/schema.json',
-          }],
-        },
-      },
-    })
+  // if (options.addServer && api.hasPlugin('eslint')) {
+  //   api.extendPackage({
+  //     devDependencies: {
+  //       'eslint-plugin-graphql': '^2.1.1',
+  //     },
+  //     eslintConfig: {
+  //       plugins: [
+  //         'graphql',
+  //       ],
+  //       rules: {
+  //         'graphql/template-strings': ['error', {
+  //           env: 'literal',
+  //           projectName: 'app',
+  //           schemaJsonFilepath: 'node_modules/.temp/graphql/schema.json',
+  //         }],
+  //       },
+  //     },
+  //   })
   }
 
   // Modify main.js

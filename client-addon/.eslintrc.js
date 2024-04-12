@@ -12,9 +12,9 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': ['error', 'always-multiline'],
   },
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
+  // parserOptions: {
+  //   parser: 'babel-eslint',
+  // },
   globals: {
     'ClientAddonApi': false,
     'mapSharedData': false,

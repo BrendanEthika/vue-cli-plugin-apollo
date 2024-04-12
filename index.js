@@ -48,26 +48,26 @@ module.exports = (api, options) => {
       .loader('graphql-tag/loader')
       .end()
 
-    if (api.hasPlugin('eslint') && config.module.rules.has('eslint')) {
-      if (apolloOptions.lintGQL) {
-        const id = generateCacheIdentifier(api.resolve('.'))
-
-        config.module
-          .rule('eslint')
-          .test(/\.(vue|(j|t)sx?|gql|graphql)$/)
-          .use('eslint-loader')
-          .tap(options => {
-            options.extensions.push('.gql', '.graphql')
-            return {
-              ...options,
-              cacheIdentifier: options.cacheIdentifier + id,
-            }
-          })
-      } else if (apolloOptions.lintGQL !== false) {
-        console.log('To enable GQL files in ESLint, set the `pluginOptions.apollo.lintGQL` project option to `true` in `vue.config.js`. Put `false` to hide this message.')
-        console.log('You also need to install `eslint-plugin-graphql` and enable it in your ESLint configuration.')
-      }
-    }
+    // if (api.hasPlugin('eslint') && config.module.rules.has('eslint')) {
+    //   if (apolloOptions.lintGQL) {
+    //     const id = generateCacheIdentifier(api.resolve('.'))
+    //
+    //     config.module
+    //       .rule('eslint')
+    //       .test(/\.(vue|(j|t)sx?|gql|graphql)$/)
+    //       .use('eslint-loader')
+    //       .tap(options => {
+    //         options.extensions.push('.gql', '.graphql')
+    //         return {
+    //           ...options,
+    //           cacheIdentifier: options.cacheIdentifier + id,
+    //         }
+    //       })
+    //   } else if (apolloOptions.lintGQL !== false) {
+    //     console.log('To enable GQL files in ESLint, set the `pluginOptions.apollo.lintGQL` project option to `true` in `vue.config.js`. Put `false` to hide this message.')
+    //     console.log('You also need to install `eslint-plugin-graphql` and enable it in your ESLint configuration.')
+    //   }
+    // }
 
     config.resolve
       .extensions
